@@ -11,7 +11,12 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/',array(
+		'uses' => 'HomeController@home'
+));
+
+
+// About
+Route::get('about',array(
+		'uses' => 'HomeController@about'
+));
