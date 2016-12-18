@@ -15,8 +15,22 @@ Route::get('/',array(
 		'uses' => 'HomeController@home'
 ));
 
+// About
+Route::get('projects',array(
+		'uses' => 'HomeController@projects'
+));
+
+// About
+Route::get('doners',array(
+		'uses' => 'HomeController@doners'
+));
 
 // About
 Route::get('about',array(
 		'uses' => 'HomeController@about'
+));
+
+// About
+Route::get('contact',array(
+		'uses' => 'HomeController@contact'
 ));

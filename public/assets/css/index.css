@@ -1,0 +1,25 @@
+.width-percent-100 {
+    width : 100%
+}
+
+.width-percent-60 {
+    width : 60%
+}
+
+.width-percent-40 {
+    width : 40% !important;
+}
+
+.width-percent-20 {
+    width : 20%
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.helght-10 {
+    height: 10px;
+}

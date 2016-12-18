@@ -16,24 +16,35 @@ class HomeController extends BaseController {
 	*/
 
 
-	public function showWelcome()
-	{
-		return View::make('hello');
-	}
-
-
 	public function home()
 	{
 		return View::make('home/index');
 	}
 
 
+	public function projects()
+	{
+		return View::make('projects/index');
+	}
+
+
+	public function doners()
+	{
+		return View::make('doners/index');
+	}
+
+
+	public function about()
+	{
+		return View::make('about/index');
+	}
+
 	/*
 	 * About functon
 	 */
-	public function about() {
+	public function contact() {
 
-		return View::make('about/index');
+		return View::make('contact/index');
 	}
 
 }

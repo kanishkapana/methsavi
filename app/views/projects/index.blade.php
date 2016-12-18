@@ -9,8 +9,8 @@
             </div>
             <div class='center width-percent-40'>
                 <ul class="nav nav-tabs">
-                    <li role="presentation" class="active"><a href="/">Home</a></li>
-                    <li role="presentation"><a href="/projects">Projects</a></li>
+                    <li role="presentation"><a href="/">Home</a></li>
+                    <li role="presentation" class="active"><a href="/projects">Projects</a></li>
                     <li role="presentation"><a href="/doners">Doners</a></li>
                     <li role="presentation"><a href="/about">About</a></li>
                     <li role="presentation"><a href="/contact">Contat Us</a></li>
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class='body-container'>
-            Home
+            Projects
         </div>
         <div class='foot-container'>
             Footer
