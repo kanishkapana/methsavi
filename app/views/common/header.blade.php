@@ -9,7 +9,6 @@
             </div>
             <div class='center-percent-50 width-percent-40 padding-10'>
                 <ul class="nav nav-tabs">
-
                     <?php
                         $links = array('1' => '/', '2' => '/projects', '3' => '/doners', '4' => '/about', '5' => '/contact');
                         $header = array('1' => 'Home', '2' => 'Projects', '3' => 'Doners', '4' => 'About', '5' => 'Contat Us');
