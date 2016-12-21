@@ -1,27 +1,16 @@
-<html>
-    <head>
-        <link rel='stylesheet' type='text/css' href='{{ URL::asset('assets/css/index.css') }}'>
-        <link rel='stylesheet' type='text/css' href='{{ URL::asset('assets/custom/bootstrap/css/bootstrap.min.css') }}'>
-    </head>
-    <body>
-        <div class='header-container width-percent-100'>
-            <div class="helght-10">
-            </div>
-            <div class='center width-percent-40'>
-                <ul class="nav nav-tabs">
-                    <li role="presentation"><a href="/">Home</a></li>
-                    <li role="presentation"><a href="/projects">Projects</a></li>
-                    <li role="presentation"><a href="/doners">Doners</a></li>
-                    <li role="presentation"><a href="/about">About</a></li>
-                    <li role="presentation" class="active"><a href="/contact">Contat Us</a></li>
-                </ul>
-            </div>
+@include('common.header')
+<div class='body-container' xmlns="http://www.w3.org/1999/html">
+    <div class='padding-20'>
+        <span class='bold-text'>Contact Us</span>
+        </br></br>
+        <span>Please Contact Us if you have any inquiries .</span>
+        <div class='padding-top-40'>
+            <span class=''>Email : </span>kanishkapanamaldeniya@gmail.com
+            </br></br>
+            <span class=''>Facecook Page : </span><a target="_blank" href='https://www.facebook.com/poweroflovingkindness/'>power of loving kindness</a>
+            </br></br>
+            <span class=''>Mobile Number : </span>+852-55882545
         </div>
-        <div class='body-container'>
-            Contact
-        </div>
-        <div class='foot-container'>
-            Footer
-        </div>
-    </body>
-</html>
+    </div>
+</div>
+@include('common.footer')
