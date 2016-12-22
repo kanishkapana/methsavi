@@ -12,25 +12,25 @@
 */
 
 Route::get('/',array(
-		'uses' => 'HomeController@home'
+		'uses' => 'HomeController@index'
 ));
 
 // About
 Route::get('projects',array(
-		'uses' => 'HomeController@projects'
+		'uses' => 'ProjectsController@index'
 ));
 
 // About
 Route::get('doners',array(
-		'uses' => 'HomeController@doners'
+		'uses' => 'DonersController@index'
 ));
 
 // About
 Route::get('about',array(
-		'uses' => 'HomeController@about'
+		'uses' => 'AboutController@index'
 ));
 
 // About
 Route::get('contact',array(
-		'uses' => 'HomeController@contact'
+		'uses' => 'ContactController@index'
 ));

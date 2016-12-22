@@ -24,6 +24,7 @@
             <span class='bold-text'>Main People</span>
             </br></br>
             <div class='padding-10'>
+               <!-- <img width="80px;" height="80px;" src="{{ URL::asset('assets/img/kanishka.jpg') }}" /> -->
                 Kanishka Panamaldeniya - Co-Founder
             </div>
             <div class='padding-10'>
