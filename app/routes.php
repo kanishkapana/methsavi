@@ -15,22 +15,27 @@ Route::get('/',array(
 		'uses' => 'HomeController@index'
 ));
 
-// About
+
 Route::get('projects',array(
 		'uses' => 'ProjectsController@index'
 ));
 
-// About
+
+Route::get('projects/project/{id}',array(
+		'uses' => 'ProjectsController@project'
+));
+
+
 Route::get('doners',array(
 		'uses' => 'DonersController@index'
 ));
 
-// About
+
 Route::get('about',array(
 		'uses' => 'AboutController@index'
 ));
 
-// About
+
 Route::get('contact',array(
 		'uses' => 'ContactController@index'
 ));
