@@ -7,9 +7,9 @@ class ProjectsController extends BaseController {
         return View::make('projects/index', array('page' => 2));
     }
 
-    public function project($projectId)
+    public function project($projectTypeId, $projectId)
     {
-        return View::make('projects/project', array('projectId' => $projectId, 'page' => 2));
+        return View::make('projects/project', array('projectTypeId'=> $projectTypeId, 'projectId' => $projectId, 'page' => 2));
     }
 
 }

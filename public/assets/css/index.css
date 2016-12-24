@@ -52,6 +52,27 @@
     font-weight : bold;
 }
 
+.slider-div {
+    width : 700px;
+    height: 400px
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.header-container {
+
+}
+
+.cursor-point {
+    cursor: pointer;
+}
+
 .body-container {
     margin : 10px auto;
     width : 90%;

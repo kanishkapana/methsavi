@@ -21,7 +21,7 @@ Route::get('projects',array(
 ));
 
 
-Route::get('projects/project/{id}',array(
+Route::get('projects/project/{projectTypeId}/{projectId}',array(
 		'uses' => 'ProjectsController@project'
 ));
 
